@@ -1,6 +1,6 @@
 // Programa : Pisque um LED
 // Autor : adrianoDUBIEL
-  saida=11
+  saida=11;
 void setup()
 {
   //Define a porta do led como saida
