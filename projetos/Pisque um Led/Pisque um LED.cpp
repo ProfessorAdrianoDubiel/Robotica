@@ -1,7 +1,7 @@
 // Programa : Pisque um LED
 // Autor : adrianoDUBIEL
 
-int saida=11;
+int saida=11
 
 void setup()
 {
