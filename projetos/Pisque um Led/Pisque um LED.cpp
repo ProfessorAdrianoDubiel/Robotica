@@ -1,22 +1,22 @@
 // Programa : Pisque um LED
 // Autor : adrianoDUBIEL
-  
+  saida=11
 void setup()
 {
   //Define a porta do led como saida
-  pinMode(11, OUTPUT);
+  pinMode(saida, OUTPUT);
 }
   
 void loop()
 {
   //Acende o led
-  digitalWrite(11, HIGH);
+  digitalWrite(saida, HIGH);
     
   //Aguarda intervalo de tempo em milissegundos
   delay(1000);
     
   //Apaga o led
-  digitalWrite(11, LOW);
+  digitalWrite(saida, LOW);
     
   //Aguarda intervalo de tempo em milissegundos
   delay(1000);
